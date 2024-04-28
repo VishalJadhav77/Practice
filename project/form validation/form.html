@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js>"></script>
+</head>
+<body>
+    
+
+
+    <div class="main">
+      <div class="login-box">
+        <div class="log-text">
+          <p class="wel">
+            Hello.<br /><span class="Wtext">Enter your details to login</span>
+          </p>
+        </div>
+        <div class="form">
+          <form name="Logform" action="#">
+            <div class="UserName">
+              <input
+                id="name"
+                name="Uname"
+                type="text"
+                placeholder="Enter your name"
+                size="50"
+                 
+              />
+            </div>
+
+            <div class="UserPass">
+              <input
+                type="password"
+                name="Upass"
+                id="pass"
+                placeholder="Enter your password"
+                size="50"
+                     
+              />
+            </div>
+
+            <div class="ReUserPass">
+              <input
+                type="password"
+                name="reUpass"
+                id="repass"
+                placeholder="Enter your password again"
+                size="50"
+                    
+              />
+            </div>
+            <br />
+            <button id="sub" onclick="submitForm()">Submit</button>
+            <button type="reset">Reset</button>
+            <button id="show" onclick="showPass()">Show password</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  
+  
+  </body>

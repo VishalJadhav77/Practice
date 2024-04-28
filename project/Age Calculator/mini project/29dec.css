@@ -1,0 +1,25 @@
+body{
+    background-color: coral;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: brown;
+    background-color: chocolate;
+}
+div{
+    height: 50px;
+    background-color: burlywood;
+    width: 200px;
+    border-radius: 20px; 
+    text-align: center;
+}
+#a{
+    background-color: chartreuse;
+}
+#b{
+    background-color: floralwhite;
+}
+#c{
+    background-color: mediumorchid;
+}
